@@ -62,7 +62,7 @@ ros_car_status
 使用code .命令，用vscode打开工作空间 
 在 ros_car_status /src 目录下新增 publisher.cpp 文件，文件内容如下：  
 
-···
+```python
 #include <chrono> 
 #include <iomanip>      // 为了 std::fixed << std::setprecision 
 #include "rclcpp/rclcpp.hpp" 
@@ -120,7 +120,7 @@ rclcpp::init(argc, argv);
 rclcpp::spin(std::make_shared<BatteryPublisher>()); 
 rclcpp::shutdown(); 
 return 0; 
-···
+```
 
 4. 编辑编译配置文件CMakeList.txt 
 默认生成的 CMakeList.txt 文件内容如下： 
