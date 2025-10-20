@@ -1,4 +1,3 @@
-````markdown name=README.md url=https://github.com/Ciel-Yi/vscode/blob/bde71c5e79f0a8381667ff84926de13348172735/README.md
 #  实验1：linux&ros基础
 专业班级：电信2202  
 学号：U202213875  
@@ -44,8 +43,6 @@ Ubuntu22 镜像网站：Index of /ubuntu-releases/22.04/
 ### 6. 小海龟仿真测试 
 新建一个终端，输入以下命令启动小海龟的可视化仿真：   
 `ros2 run turtlesim turtlesim_node`  
-
-<!-- 使用正确的 Markdown / HTML 图片语法，且通过 raw.githubusercontent.com 获取原始图片以确保在 README 中正确显示 -->
 <img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/run_turtle.png" width="50%" alt="turtle.png" /> 
 
 再新建一个终端，输入以下命令，使用键盘控制小海龟的移动：  
