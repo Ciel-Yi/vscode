@@ -43,10 +43,10 @@ Ubuntu22 镜像网站：Index of /ubuntu-releases/22.04/
 ### 6. 小海龟仿真测试 
 新建一个终端，输入以下命令启动小海龟的可视化仿真：   
 `ros2 run turtlesim turtlesim_node`  
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/run_turtle.png" width="50%" alt="turtle.png" /> 
-
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/turtle.png" width="50%" alt="turtle.png" /> 
 再新建一个终端，输入以下命令，使用键盘控制小海龟的移动：  
 `ros2 run turtlesim turtle_teleop node`
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/run_turtle.png" width="50%" alt="turtle.png" /> 
 ### ROS2 基础 
 #### 1. 创建工作空间目录： 
 `mkdir -p ros_car_status/src`
