@@ -129,22 +129,18 @@ return 0;
 由于新增了源文件publisher.cpp，所以要配置该文件的编译规则。 
 找CMakeLists.txt，修改如下： 
  
- 
 5. 进入到ros_car_status 工作空间，使用如下指令编译工程： 
 colcon build 
 6. 运行节点 
 先设置环境变量，即让系统可以找到节点，进入到工作空间目录，执行如下
 指令： 
-source install/setup.bash 
+`source install/setup.bash` 
 接着运行该节点： 
-ros2 run ros_car_status battery_publisher  
-但单次执行 source install/setup.bash 只对当前终端有效，新打开终端仍需
-再执行该命令，为了避免每次执行，可以把该命令加到当前用户的 .bashrc 
-文件中，该文件在用户的 home 目录下。 
-方法一：直接打开 ~/.bashrc 文件，在末尾添加 source 你的工作空间目录
-/install/setup.bash ，保存。 
-方法二：使用命令 echo "source 你的工作空间目录/install/setup.bash" >> 
-~/.bashrc 
-最后，使用命令 source ~/.bashrc 使修改生效。
+`ros2 run ros_car_status battery_publisher`    
+但单次执行 `source install/setup.bash` 只对当前终端有效，新打开终端仍需  
+再执行该命令，为了避免每次执行，可以把该命令加到当前用户的 .bashrc 文件中，该文件在用户的 home 目录下。   
+方法一：直接打开 ~/.bashrc 文件，在末尾添加 source 你的工作空间目录/install/setup.bash ，保存。   
+方法二：使用命令 echo "source 你的工作空间目录/install/setup.bash" >> ~/.bashrc   
+最后，使用命令 source ~/.bashrc 使修改生效。  
 
-
+  
