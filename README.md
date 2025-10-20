@@ -60,7 +60,8 @@ ros_car_status
 生成的文件目录如下：   
 #### 3. 编译源文件： 
 使用code .命令，用vscode打开工作空间 
-在 ros_car_status /src 目录下新增 publisher.cpp 文件，文件内容如下：
+在 ros_car_status /src 目录下新增 publisher.cpp 文件，文件内容如下：  
+
 ···
  #include <chrono> 
  #include <iomanip>      // 为了 std::fixed << std::setprecision 
