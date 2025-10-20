@@ -61,8 +61,7 @@ ros_car_status
 #### 3. 编译源文件： 
 使用code .命令，用vscode打开工作空间 
 在 ros_car_status /src 目录下新增 publisher.cpp 文件，文件内容如下：  
-
-···
+··· python
  #include <chrono> 
  #include <iomanip>      // 为了 std::fixed << std::setprecision 
  #include "rclcpp/rclcpp.hpp" 
