@@ -126,12 +126,10 @@ int main(int argc, char **argv)
 ```
 
 ### 4. 编辑编译配置文件CMakeList.txt 
-默认生成的`CMakeList.txt`文件内容如下：   
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/cmake.png" width="50%" alt="cmake.png" />   
-由于新增了源文件`publisher.cpp`，所以要配置该文件的编译规则。 
-找CMakeLists.txt`，修改如下：
+默认生成的`CMakeList.txt`，由于新增了源文件`publisher.cpp`，所以要配置该文件的编译规则。 
+找`CMakeLists.txt`，修改如下：  
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/cmake.png" width="50%" alt="cmake.png" />    
 
- 
 ### 5. 进入到`ros_car_status`工作空间，使用如下指令编译工程： 
 `colcon build` 
 ### 6. 运行节点 
