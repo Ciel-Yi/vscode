@@ -125,15 +125,15 @@ int main(int argc, char **argv)
 }
 ```
 
-4. 编辑编译配置文件CMakeList.txt 
+### 4. 编辑编译配置文件CMakeList.txt 
 默认生成的`CMakeList.txt`文件内容如下： 
  
 由于新增了源文件`publisher.cpp`，所以要配置该文件的编译规则。 
 找CMakeLists.txt`，修改如下： 
  
-5. 进入到`ros_car_status`工作空间，使用如下指令编译工程： 
+### 5. 进入到`ros_car_status`工作空间，使用如下指令编译工程： 
 `colcon build` 
-6. 运行节点 
+### 6. 运行节点 
 先设置环境变量，即让系统可以找到节点，进入到工作空间目录，执行如下指令： 
 `source install/setup.bash` 
 接着运行该节点： 
