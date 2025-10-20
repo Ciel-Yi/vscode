@@ -137,7 +137,7 @@ int main(int argc, char **argv)
 `source install/setup.bash`     
 接着运行该节点：   
 `ros2 run ros_car_status battery_publisher`     
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/battry.png" width="50%" alt="battry.png" />  
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/battry.png" width="50%" alt="battry.png" />   
 但单次执行 `source install/setup.bash` 只对当前终端有效，新打开终端仍需再执行该命令，为了避免每次执行，可以把该命令加到当前用户的 .bashrc 文件中，该文件在用户的 `home `目录下。    
 方法一：直接打开` ~/.bashrc `文件，在末尾添加 `source /你的/工作/空间/目录/install/setup.bash `，保存。    
 方法二：使用命令 `echo "source /你的/工作/空间/目录/install/setup.bash" >> ~/.bashrc`    
