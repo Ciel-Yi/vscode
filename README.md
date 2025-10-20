@@ -36,20 +36,20 @@ Ubuntu22 镜像网站：Index of /ubuntu-releases/22.04/
 `wget http://fishros.com/install -O fishros && . fishros`  
 选择1，安装humble版本的ROS2（桌面版），同时也安装Vscode ide以进行后续项目的开发 
 ### 5. Hello,world 节点测试 
-新建一个终端，输入以下命令启动一个数据的发布者节点：   
-`ros2 run demo_nodes_cpp talker`   
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/talker.png" width="50%" alt="talker.png" /> 
-启动第二个终端，通过以下命令启动一个数据的订阅者节点：   
-`ros2 run demo_nodes_py listener`   
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/listener.png" width="50%" alt="listener.png" /> 
-如果“Hello World”字符串在两个终端中正常传输，说明通信系统没有问题   
+新建一个终端，输入以下命令启动一个数据的发布者节点：    
+`ros2 run demo_nodes_cpp talker`    
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/talker.png" width="50%" alt="talker.png" />   
+启动第二个终端，通过以下命令启动一个数据的订阅者节点：    
+`ros2 run demo_nodes_py listener`    
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/listener.png" width="50%" alt="listener.png" />   
+如果“Hello World”字符串在两个终端中正常传输，说明通信系统没有问题    
 ### 6. 小海龟仿真测试 
 新建一个终端，输入以下命令启动小海龟的可视化仿真：   
 `ros2 run turtlesim turtlesim_node`    
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/run_turtle.png" width="50%" alt="turtle.png" />   
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/run_turtle.png" width="50%" alt="turtle.png" />    
 再新建一个终端，输入以下命令，使用键盘控制小海龟的移动：    
 `ros2 run turtlesim turtle_teleop node`    
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/turtle.png" width="50%" alt="turtle.png" /> 
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/turtle.png" width="50%" alt="turtle.png" />   
 ### ROS2 基础 
 #### 1. 创建工作空间目录： 
 `mkdir -p ros_car_status/src`
