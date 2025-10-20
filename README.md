@@ -65,7 +65,7 @@ license LICENSE 参数指定：
 `ros2 pkg create --build-type ament_cmake --license Apache-2.0 ros_car_status`   
 生成的文件目录如下：   
 #### 3. 编译源文件： 
-使用code .命令，用vscode打开工作空间 
+使用code .命令，用vscode打开工作空间   
 在 ros_car_status/src 目录下新增 publisher.cpp 文件，文件内容如下：  
 
 ```cpp
