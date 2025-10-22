@@ -33,12 +33,12 @@ Ubuntu22 镜像网站：Index of /ubuntu-releases/22.04/
 ### 4. 配置ROS2环境 
 按Ctrl+Alt+t 召唤出终端   
 输入鱼香ros命令一键安装   
-`wget http://fishros.com/install -O fishros && . fishros`    
+`wget http://fishros.com/install -O fishros && . fishros`   
 <img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/resnet18/ROS2.png" width="50%" alt="ROS2.png" />     
-选择1，安装humble版本的ROS2（桌面版），同时也安装Vscode ide以进行后续项目的开发 
+选择1，安装humble版本的ROS2（桌面版），同时也安装Vscode ide以进行后续项目的开发  
 ### 5. Hello,world 节点测试 
-新建一个终端，输入以下命令启动一个数据的发布者节点：    
-`ros2 run demo_nodes_cpp talker`    
+新建一个终端，输入以下命令启动一个数据的发布者节点：  
+`ros2 run demo_nodes_cpp talker`  
 <img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/talker.png" height="80%" width="50%" alt="talker.png" />   
 启动第二个终端，通过以下命令启动一个数据的订阅者节点：    
 `ros2 run demo_nodes_py listener`    
