@@ -39,10 +39,10 @@ Ubuntu22 镜像网站：Index of /ubuntu-releases/22.04/
 ### 5. Hello,world 节点测试 
 新建一个终端，输入以下命令启动一个数据的发布者节点：    
 `ros2 run demo_nodes_cpp talker`    
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/talker.png" height="90%" width="50%" alt="talker.png" />   
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/talker.png" height="80%" width="50%" alt="talker.png" />   
 启动第二个终端，通过以下命令启动一个数据的订阅者节点：    
 `ros2 run demo_nodes_py listener`    
-<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/listener.png" width="50%" alt="listener.png" />   
+<img src="https://raw.githubusercontent.com/Ciel-Yi/vscode/main/listener.png" height="80%" width="50%" alt="listener.png" />   
 如果“Hello World”字符串在两个终端中正常传输，说明通信系统没有问题    
 ### 6. 小海龟仿真测试 
 新建一个终端，输入以下命令启动小海龟的可视化仿真：   
